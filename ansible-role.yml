@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+
+  roles:
+    - farisc0de.apache
